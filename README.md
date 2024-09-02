@@ -5,7 +5,7 @@
 Mirth Nextgen Connect introduced since version 4 a debugger feature. 
 Nevertheless this feature only works in environments where the server installation has a user interface and the installation is not headless.
 
-This means that for dockerized deployments are some workaround necessary which this repository demonstrates.
+This means that for dockerized deployments are some workarounds necessary which are demonstrated in this repository.
 It adds some X server dependencies to the official image and forwards the DISPLAY env variable and X11 unix socket.
 
 ## Tested Versions
