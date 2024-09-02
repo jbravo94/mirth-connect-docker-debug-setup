@@ -8,6 +8,11 @@ Nevertheless this feature only works in environments where the server installati
 This means that for dockerized deployments are some workarounds necessary which are demonstrated in this repository.
 It adds some X server dependencies to the official image and forwards the DISPLAY env variable and X11 unix socket.
 
+The Debugger usually enable better productivity by offering features:
+* Ability to step through code, settings break points and introspect variables
+* Direct evaluation of variables and expressions within the console
+* Introspection of deployed interfaces at runtime without requiring interface modification e.g. debug print statements
+
 ## Tested Versions
 * Mirth Nextgen Connect 4.5.1
 * Docker 26.1.1
