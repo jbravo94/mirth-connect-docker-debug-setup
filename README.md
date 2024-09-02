@@ -1,6 +1,15 @@
 # Mirth Connect Debugger Docker Setup
 ![Mirth-Connect-Debugger-Docker-Setup](./Mirth-Connect-Debugger-Docker-Setup.PNG?raw=true "Mirth-Connect-Debugger-Docker-Setup")
 
+## Quickstart
+
+* Clone Repo
+* Run `init.sh` script
+* Manage installation with `start.sh` or `stop.sh`
+
+Optional:
+* Import example channel `TEST.xml` and play around
+
 ## Introduction
 Mirth Nextgen Connect introduced since version 4 a debugger feature. 
 Nevertheless this feature only works in environments where the server installation has a user interface and the installation is not headless.
