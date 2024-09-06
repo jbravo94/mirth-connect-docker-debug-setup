@@ -26,3 +26,7 @@ The Debugger usually enable better productivity by offering features:
 * Mirth Nextgen Connect 4.5.1
 * Docker 26.1.1
 * WSL 2.1.5.0 (Kernel 5.15.146.1-2, WSLg 1.0.60, Windows 10.0.19045.4780)
+
+## Note
+SSH Connections require additional setup: 
+https://stackoverflow.com/questions/48235040/run-x-application-in-a-docker-container-reliably-on-a-server-connected-via-ssh-w
